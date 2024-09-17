@@ -140,3 +140,29 @@ body {
 .hourly_weather:hover .weather-list {
     scrollbar-color: #bfbfbf transparent;
 }
+
+.hourly_weather .weather_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    font-weight: 500;
+}
+
+@media(max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .search_section {
+        padding: 20px;
+    }
+
+    .hourly_weather {
+        padding: 16px 20px;
+    }
+
+    .hourly_weather .weather-list {
+        gap: 32px;
+    }
+}
