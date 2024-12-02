@@ -13,15 +13,54 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-image: url(images/pexels-pixabay-209831.jpg);
+    background-size: cover;
 }
 
 .container {
     background-color: #ffff;
+
     border-radius: 10px;
     max-width: 450px;
     flex-grow: 1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    
 }
+
+
+.city_weather {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city_weather h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+}
+
+.city_weather p {
+    margin: 5px 0;
+}
+
 
 
 
