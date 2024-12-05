@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const apiKey = "ded54b89a34ce3ccf5c599b3f770a74e"; // Replace with your OpenWeatherMap API key
-    const cities = ["New York", "London", "Tokyo", "Colombo", "Dubai"];
+    // const cities = ["New York", "London", "Tokyo", "Colombo", "Dubai"];
     const weatherContainer = document.querySelector(".weather_section");
     const searchInput = document.querySelector(".search_section .input_search");
     const searchButton = document.querySelector(".search_section .location_bttn");
